@@ -27,7 +27,7 @@ export default () => (
       try {
         await axios({
           method: 'POST',
-          url: `${process.env.GATSBY_PORTFOLIO_FORMIK_ENDPOINT}`,
+          url: 'https://api.staticforms.xyz/submit',
           headers: {
             'Content-Type': 'application/json',
           },
@@ -35,6 +35,7 @@ export default () => (
             name,
             email,
             message,
+            accessKey: process.env.GATSBY_PORTFOLIO_STATIC_FORMS_ACCESS_KEY
           }),
         });
         setSubmitting(false);
