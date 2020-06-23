@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-with-web-building-blocks",
+  "name": "portfolio-with-componently",
   "private": true,
-  "description": "A simple portfolio for developers using external building blocks",
+    "description": "A simple portfolio for developers using external building blocks",
   "version": "0.1.2",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.1",
@@ -65,6 +65,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:componently/portfolio-with-web-building-blocks.git"
+    "url": "git@github.com:componently/portfolio-with-componently.git"
   }
 }
