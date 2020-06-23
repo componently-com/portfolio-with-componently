@@ -16,6 +16,13 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
+      resolve: `gatsby-plugin-splitio`,
+      options: {
+        authorizationKey: `${process.env.GATSBY_PORTFOLIO_SPLITIO_AUTHORIZATION_KEY}`,
+        key: `${process.env.GATSBY_PORTFOLIO_SPLITIO_KEY}`,
+      },
+    },
+    {
       resolve: 'gatsby-source-graphql',
       options: {
         typeName: 'GitHub',
