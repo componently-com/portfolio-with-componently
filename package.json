@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-with-web-building-blocks",
   "private": true,
-  "description": "A simple portfolio for developers",
+  "description": "A simple portfolio for developers using external building blocks",
   "version": "0.1.2",
   "author": "Smakosh <ismai23l@hotmail.com>",
   "dependencies": {
@@ -64,9 +64,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
-  },
-  "bugs": {
-    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    "url": "git@github.com:componently/portfolio-with-web-building-blocks.git"
   }
 }

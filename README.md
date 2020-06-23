@@ -4,6 +4,8 @@
 
 [![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.co?utm_source=smakosh)
 
+Strongly based on [the theme from smakosh](https://github.com/smakosh/gatsby-portfolio-dev/). 
+
 ## Theme
 
 [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio)
